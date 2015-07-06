@@ -1,11 +1,19 @@
-<h2 id="title">Time 2 Get Hussln</h2>
-
-
-{{partial 'sidebar'}}
-
-<div>
-  {{partial 'bart-alert'}}
+<div class="header">
+  <div class="container">
+    {{partial 'header'}}
+  </div>
 </div>
-<div>
-  {{outlet}}
+<div class="container">
+  <div id="box" class="col-lg-4 col-md-6">
+    <h2>BART Alerts</h2>
+    {{partial 'bart-alert'}}
+  </div>
+  <div id="box" class="col-lg-4 col-md-6">
+    <h2>Upcoming Event</h2>
+    {{outlet}}
+  </div>
+  <div id="box" class="col-lg-4 col-md-6">
+    <h2>Next Event</h2>
+      <p>no more events</p>
+  </div>
 </div>

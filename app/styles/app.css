@@ -1,0 +1,20 @@
+body {
+ text-align: center;
+ background-color: #4d4d4d;
+}
+
+.header {
+  background-color: #C5DF9F;
+  background-size: contain;
+  padding: 100px;
+}
+
+#box {
+  color: white;
+  border: 10px solid #8CD9BD;
+  padding: 100px, 50px, 100px, 50px;
+  height: 200px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 10;
+}

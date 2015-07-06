@@ -1,4 +1,17 @@
-{{#each event in model}}
-  <p>{{event.name}}</p>
-  <p>{{event.startTime}}</p>
-{{/each}}
+<div class="container events">
+  <div id="box" class="col-lg-4 col-md-6">
+    <h2>BART Alerts</h2>
+    {{partial 'bart-alert'}}
+  </div>
+  <div id="box" class="col-lg-4 col-md-6">
+    <h2>Upcoming Event</h2>
+    {{#each event in model}}
+      <p>{{event.name}}</p>
+      <p>{{event.startTime}}</p>
+    {{/each}}
+  </div>
+  <div id="box" class="col-lg-4 col-md-6">
+    <h2>Next Event</h2>
+      <p>no more events</p>
+  </div>
+</div>

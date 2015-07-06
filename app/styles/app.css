@@ -5,13 +5,20 @@ body {
 
 .header {
   background-color: #C5DF9F;
-  background-size: contain;
-  padding: 100px;
+  background: url(http://insideoutimage.co.uk/wp-content/uploads/2014/07/Commuters.jpg);
+  background-size: cover;
+  min-height: 70%;
+  min-width: 100%;
+  /* padding: 100px; */
+}
+
+.events {
+  background-color: #4d4d4d;
 }
 
 #box {
   color: white;
-  border: 10px solid #8CD9BD;
+  border: 5px solid #8CD9BD;
   padding: 100px, 50px, 100px, 50px;
   height: 200px;
   width: 300px;

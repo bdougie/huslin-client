@@ -29,3 +29,12 @@ body {
   font-size: 20px;
   font-weight: 10;
 }
+
+#event-link {
+  padding: 10px, 0, 0, 0;
+}
+
+a{
+  color: #8CD9BD;
+  font-size: 10px;
+}

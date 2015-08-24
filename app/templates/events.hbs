@@ -1,5 +1,9 @@
-<h2 class="subtitle">Upcoming Event</h2>
-{{#each event in model}}
-  <h3 class="tagline">{{event.name}}</h3>
-  <p>{{event.startTime}}</p>
+<h2 class="subtitle">A tool to avoid upcoming events</h2>
+{{#each model as |event|}}
+  {{# if event}}
+  <h3 class="tagline">There is an event today, {{event.name}} at {{event.standardStartTime}}</h3>
+    <p></p>
+  {{ else }}
+    <h3>There are no events slowing BART today, keep hussln!</h3>
+  {{/if}}
 {{/each}}

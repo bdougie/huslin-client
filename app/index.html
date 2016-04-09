@@ -7,36 +7,19 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{content-for 'head'}}
+    {{content-for "head"}}
 
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/hussln-client.css">
 
-    <!-- Bootstrap itself -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="assets/css/magister.css">
-
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
-
-    {{content-for 'head-footer'}}
+    {{content-for "head-footer"}}
   </head>
-  <body class="theme-invert">
-    {{content-for 'body'}}
+  <body>
+    {{content-for "body"}}
 
     <script src="assets/vendor.js"></script>
     <script src="assets/hussln-client.js"></script>
 
-    <!-- Load js libs only when the page is loaded. -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="assets/js/modernizr.custom.72241.js"></script>
-    <!-- Custom template scripts -->
-    <script src="assets/js/magister.js"></script>
-
-    {{content-for 'body-footer'}}
+    {{content-for "body-footer"}}
   </body>
 </html>
